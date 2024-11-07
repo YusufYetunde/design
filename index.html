@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Yetunde.io</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Yetunde.io</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section class="hero" id="profiles" data-aos="fade-up">
+            <div>
+              <h3><span class="text-color">Hi,</span></h3>
+                <br/><h1>I'm Yetunde Yusuf <br/><h2><span class="text-color" id="role">Product Designer</span></h2> </h1>
+                <p>Specializing in all types of product interfaces. From mobile applications to website design and web
+                    applications for brands and businesses, I bridge the gap between beautiful and usable design.</p>
+                <div class="buttons">
+                    <a href="#projects" class="active-btn">Project</a>
+                    <a href="https://docs.google.com/document/d/1pNYgaiS5ICRj-_NyO_AdLGZev7dK9z7Y1f54qY3Nam0/edit?usp=sharing" class="non-active">Resume</a>
+                </div>
+            </div>
+            <div>
+              <img src="profileimg.png"/>
+            </div>
+        </section>
+    <section id="about" class="about" data-aos="fade-up">
+            <h3 class="title-sec">About</h3>
+            <p>I began my journey in product design recently, and since then, I've been on a path of continuous learning
+                and improvement. My passion for creating intuitive and visually appealing designs has driven me to
+                rapidly develop my skills and tackle various projects, from mobile apps to innovative digital platforms.
+                Each project has been an opportunity to refine my understanding of user experience, interface design, and
+                the creative process. As I continue to learn and grow, I'm excited to push the boundaries of what's
+                possible in product design and create solutions that not only meet user needs but also inspire and
+                delight.</p>
+        </section>
+     <section id="projects" class="projects">
+  <h3 class="title-sec">Projects</h3>
+  <section id="portfolio">
+    <div class="portfolio-container" data-aos="fade-up">
+      <div class="portfolio-text">
+        <h2>NFT Profile</h2>
+        <p>
+          An innovative platform that allows users to showcase their digital identities through unique,
+          personalized NFT avatars. The project focuses on creating a seamless user experience with a visually
+          striking interface that blends art and technology.
+        </p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="portfolio-images">
+        <img src="Nft.jpg" alt="NFT Profile Image 1">
+      </div>
+    </div>
+    <div class="portfolio-container" data-aos="fade-up">
+      <div class="portfolio-text">
+        <h2>TinbuExpress</h2>
+        <p>
+          TinbuExpress is a single-seller page platform I designed to provide individual sellers with a dedicated space to showcase and sell their products. The platform focuses on simplicity and functionality, offering an elegant design that allows sellers to present their offerings professionally. It includes essential features like product listings, secure payment integration, and a user-friendly interface, all crafted to enhance the seller’s brand and streamline the buyer’s experience.
+        </p>
+        <a href="tinbu.html">View Project</a>
+      </div>
+      <div class="portfolio-images">
+        <img src="tinbu.png" alt="Tinbuexpress">
+      </div>
+    </div>
+    <div class="portfolio-container" data-aos="fade-up">
+      <div class="portfolio-text">
+        <h2>GossipWave</h2>
+        <p>
+          GossipWave is a social app I designed that centers around trending conversations and topics, offering users a dynamic platform to engage with the latest buzz. The app features real-time discussions, customizable feeds, and interactive elements that keep users connected to what’s hot in the world of social media. The design process focused on creating an intuitive user experience with vibrant visuals and fluid navigation, ensuring users can effortlessly discover, participate in, and share conversations on trending topics. GossipWave is designed to be the go-to platform for staying informed and connected in an ever-evolving social landscape.
+        </p>
+        <a href="hotgit.html">View Project</a>
+      </div>
+      <div class="portfolio-images">
+        <img src="hotgist.png" alt="Tinbuexpress">
+      </div>
+    </div>
+    <div class="portfolio-container" data-aos="fade-up">
+      <div class="portfolio-text">
+        <h2>PiggyPal</h2>
+        <p>
+          Piggypal is a savings app I designed specifically for kids aged 5-10, aimed at teaching them the fundamentals of financial literacy in a fun and engaging way. The app includes features like income and expense tracking, savings goal setting, and interactive financial education content. To keep young users motivated, I incorporated gamification elements and visually appealing graphics that make the learning process enjoyable. Accessibility was also a key focus, with the design adhering to WCAG 2.2 AA standards to ensure it is user-friendly for all children. Piggypal empowers kids to develop smart money habits early on, all within a safe and educational environment.
+        </p>
+        <a href="kids.html">View Project</a>
+      </div>
+      <div class="portfolio-images">
+        <img src="kids.png" alt="Tinbuexpress">
+      </div>
+    </div>
+    <div class="portfolio-container" data-aos="fade-up">
+      <div class="portfolio-text">
+        <h2>Letters.</h2>
+        <p>
+          Letters. is a social media app I designed that brings back the charm of letter writing in the digital age. Each user's page is like a personal diary, filled with long-form letters that resemble blog posts, complete with beautiful typography and embedded images. The app encourages thoughtful communication by starting each letter with a salutation, creating a personal and intimate experience for both writers and readers. Users can respond to letters with their own, forming a thread-like conversation that feels more meaningful than typical social media interactions. Letters. also features AI-assisted writing tools, helping users craft their messages with creativity and ease. The design emphasizes aesthetics, creating a space where the art of letter writing can thrive in a modern, connected world.
+        </p>
+        <a href="letters.html">View Project</a>
+      </div>
+      <div class="portfolio-images">
+        <img src="letters.png" alt="Tinbuexpress">
+      </div>
+    </div>
+  </section>
+</section>
+
+    <section id="contact" class="contacts" data-aos="fade-up">
+      <h3 class="title-sec">Contact</h3>
+      <div class="contact-container">
+        <div class="contact-info">
+        <p>Let's work together on your next project! You can reach me at:</p>
+        <a href="#">+234 9162696071</a>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      </div>
+    </section>
+    <footer>  
+        <a href="https://www.instagram.com/yetundes.io/"><img src="insta.png"></a>
+        <a href="https://www.linkedin.com/in/yetunde-yusuf-07bb98197/"><img src="linkedin.png"></a>
+        <a href="mailto:yusufyetunde13@gmail.com"><img src="mail.png"></a>
+        <p>Yetunde.io 2024</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, 
+    once: true, 
+  });
+</script>
+  </body>
+</html>
